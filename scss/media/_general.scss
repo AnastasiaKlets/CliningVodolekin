@@ -1,0 +1,15 @@
+@import "title";
+@import "basicServices";
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.trans-5 {
+  transition: 0.5s all;
+}

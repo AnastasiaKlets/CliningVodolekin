@@ -1,0 +1,117 @@
+@media (max-width:1750px) {
+  .basic_services{
+    &_wrapper{
+      width: 100%;
+      gap: 70px;
+
+    }
+  }
+}
+
+@media (max-width:1440px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+  .basic_services{
+    margin-top: 21px;
+    &_wrapper{
+      gap: 21px;
+      .title_64{
+        text-align: center;
+        width: 80%;
+      }
+      &_blocks{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+        &_inf{
+          &_text{
+            display: flex;
+            align-items: flex-end;
+            padding: 13px 20px 20px;
+            justify-content: space-between;
+
+            &_btn{
+              background-image: url("../../img/basic_services/btn3.svg");
+              background-repeat: no-repeat;
+              background-size: cover;
+              height: 44px;
+              width: 44px;
+            }
+            &_btn:hover{
+              animation: swing step-end;
+            }
+            &_text{
+              width: 80%;
+              gap: 2px;
+            }
+
+          }
+          &_price{
+            top: 16px;
+            left: 16px;
+            border-radius: 30px;
+            width: 123px;
+            height: 31px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .basic_services{
+    margin-top: 21px;
+    &_wrapper{
+      gap: 21px;
+      .title_64{
+        text-align: center;
+        width: 80%;
+      }
+      &_blocks{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+        &_inf{
+          &_text{
+            display: flex;
+            align-items: flex-end;
+            padding: 13px 20px 20px;
+            justify-content: space-between;
+
+            &_btn{
+              background-image: url("../../img/basic_services/btn3.svg");
+              background-repeat: no-repeat;
+              background-size: cover;
+              height: 44px;
+              width: 44px;
+            }
+            &_btn:hover{
+              animation: swing step-end;
+            }
+            &_text{
+              width: 80%;
+              gap: 2px;
+            }
+
+          }
+          &_price{
+            top: 16px;
+            left: 16px;
+            border-radius: 30px;
+            width: 123px;
+            height: 31px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

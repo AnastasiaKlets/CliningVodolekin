@@ -1,13 +1,14 @@
 @import 'base/fonts';
+@import "blocks/title";
 
 * {
-  font-family: 'Urbanist', sans-serif;
+  font-family: 'Corsa Grotesk', sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
 .container {
-  max-width: 1400px;
+  max-width: 1664px;
   width: 81.29%;
   margin: 0 auto;
 }
@@ -18,10 +19,7 @@ a {
 .br {
   display: none;
 }
-body{
-  background: #1E3018;
-
-}
 
 
+@import "blocks/basicServices";
 @import 'media/general';
