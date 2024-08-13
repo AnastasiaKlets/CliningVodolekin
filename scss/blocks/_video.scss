@@ -1,0 +1,20 @@
+.video{
+  margin-top: 3vw;
+  &_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    h2{
+      text-align: center;
+    }
+    &_video{
+      width: 100%;
+      border-radius: 30px;
+      video{
+        width: 100%;
+        margin: 0;
+        border-radius: 30px;
+      }
+    }
+  }
+}
