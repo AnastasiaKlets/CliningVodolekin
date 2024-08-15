@@ -1,11 +1,11 @@
 .basic_services{
-  margin-top: 55px;
+  margin-top: 3vw;
   &_wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 77px;
+    gap: 4vw;
     .title_64{
       text-align: center;
     }
@@ -13,7 +13,7 @@
       width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 64px;
+      gap: 3vw;
       &_inf{
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
         background: #fff;
@@ -25,17 +25,17 @@
         &_text{
           display: flex;
           align-items: flex-end;
-          padding: 13px 20px 18px;
+          padding: 0.7vw 1vw  0.9vw;
           justify-content: space-between;
 
           &_btn{
             background-image: url("../../img/basic_services/btn3.svg");
             background-repeat: no-repeat;
-            height: 70px;
+            height: 3.4vw;
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 10%;
+            width: 3.4vw;
           }
           &_btn:hover{
             animation: swing 2.5s infinite;
@@ -44,7 +44,7 @@
             width: 85%;
             display: flex;
             flex-direction: column;
-            gap: 13px;
+            gap: 0.7vw;
           }
 
         }
@@ -53,8 +53,8 @@
           box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
           background: #fff;
           border-radius: 30px;
-          width: 164px;
-          height: 42px;
+          width: 7.5vw;
+          height: 2vw;
           display: flex;
           justify-content: center;
           align-items: center;

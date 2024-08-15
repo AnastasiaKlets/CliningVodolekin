@@ -1,0 +1,21 @@
+.footer{
+  background: #000;
+  margin-top: 50px;
+  &_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    span{
+      color: #ffffff;
+      font-size: 16px;
+      text-align: center;
+    }
+    &_svg{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 23px 0 10px;
+      cursor: pointer;
+    }
+  }
+}

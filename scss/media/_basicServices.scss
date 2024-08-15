@@ -1,18 +1,97 @@
-@media (max-width:1750px) {
+@media (max-width:1840px) {
   .basic_services{
     &_wrapper{
-      width: 100%;
-      gap: 70px;
-
+      &_blocks{
+        width: 100%;
+        &_inf{
+          &_text{
+            padding: 0.7vw 1vw  0.9vw;
+            &_btn{
+              height: 3.6vw;
+              width: 3.6vw;
+            }
+          }
+          &_price{
+            width: 7.5vw;
+            height: 2vw;
+            top: 27px;
+            left: 34px;
+          }
+        }
+      }
     }
   }
 }
-
-@media (max-width:1440px) {
+@media (max-width:1600px) {
 
 }
+@media (max-width:1480px) {
+  .basic_services{
+    &_wrapper{
+      &_blocks{
+        width: 100%;
+        &_inf{
+          &_text{
+            padding: 0.7vw 1vw  0.9vw;
+            &_btn{
+              height: 4.6vw;
+              width: 4.6vw;
+            }
+          }
+          &_price{
+            width: 7.5vw;
+            height: 2vw;
+            top: 27px;
+            left: 34px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1320px) {
+  .basic_services{
+    &_wrapper{
+      &_blocks{
+        &_inf{
+          &_text{
+            &_btn{
+              height: 5.1vw;
+              width: 5.1vw;
+            }
+          }
+          &_price{
+            width: 10vw;
+            height: 3vw;
+          }
+        }
+      }
+    }
+  }
+}
 @media (max-width: 1200px) {
-
+  .basic_services{
+    &_wrapper{
+      &_blocks{
+        width: 100%;
+        &_inf{
+          &_text{
+            padding: 0.7vw 1vw  0.9vw;
+            &_btn{
+              height: 4.6vw;
+              width: 4.6vw;
+            }
+          }
+          &_price{
+            width: 7.5vw;
+            height: 2vw;
+            top: 27px;
+            left: 34px;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 992px) {
   .basic_services{

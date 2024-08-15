@@ -1,0 +1,49 @@
+.workWith{
+  margin-top: 3vw;
+  &_wrapper{
+    h2{
+      text-align: center;
+      margin-bottom: 4vw;
+    }
+    &_marquee{
+      .items-wrap {
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        user-select: none;
+        gap: 65px;
+      }
+
+      .items {
+        flex-shrink: 0;
+        display: flex;
+        gap: 20px;
+        counter-reset: item;
+        justify-content: space-around;
+        min-width: 100%;
+      }
+      .item {
+        width: 19vw;
+        img{
+          width: 93%;
+        }
+      }
+      .marquee {
+        animation: scroll 60s linear infinite;
+      }
+      .reverse {
+        animation-direction: reverse;
+      }
+
+      @keyframes scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(calc(-100% - 20px));
+        }
+      }
+
+    }
+  }
+}
