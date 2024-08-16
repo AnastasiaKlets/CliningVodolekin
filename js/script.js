@@ -386,4 +386,50 @@ $(document).on('scroll DOMContentLoaded', function() {
     }
 });
 
+let ex1 = {
+    "width": "700px",
+    "height": "600px",
+    "start": "25%",
+    "firstImage": "img/ex1_1.jpg",
+    "secondImage": "img/ex1.jpg"
+}
 
+$(document).ready(function() {
+    $("#slider1").hanBeforeAfterSlider(ex1);
+});
+
+let ex2 = {
+    "width": "700px",
+    "height": "600px",
+    "start": "25%",
+    "firstImage": "img/ex2_1.jpg",
+    "secondImage": "img/ex2.jpg"
+}
+
+$(document).ready(function() {
+    $("#slider2").hanBeforeAfterSlider(ex2);
+});
+
+let ex3 = {
+    "width": "700px",
+    "height": "600px",
+    "start": "25%",
+    "firstImage": "img/ex3_1.jpg",
+    "secondImage": "img/ex3.jpg"
+}
+
+$(document).ready(function() {
+    $("#slider3").hanBeforeAfterSlider(ex3);
+});
+
+let ex4 = {
+    "width": "700px",
+    "height": "600px",
+    "start": "25%",
+    "firstImage": "img/ex4_1.jpg",
+    "secondImage": "img/ex4.jpg"
+}
+
+$(document).ready(function() {
+    $("#slider4").hanBeforeAfterSlider(ex4);
+});
