@@ -1,0 +1,240 @@
+@media (max-width:1750px) {
+
+}
+@media (max-width:1600px) {
+  .choice{
+    margin-top: 120px;
+    &_wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      gap: 70px;
+      &_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        img{
+          width: 70%;
+        }
+        &_block{
+          display: flex;
+          flex-direction: column;
+          width: 30%;
+          border: 2px solid #4c4c4c;
+          border-radius: 50px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+  .block1{
+    position: absolute;
+    left: 0;
+  }
+  .block2{
+    position: absolute;
+    top: 35%;
+    left: 0;
+  }
+  .block3{
+    position: absolute;
+    top: 70%;
+    left: 0;
+  }
+  .block4{
+    position: absolute;
+    bottom: -37%;
+    left: 15%;
+  }
+  .block5{
+    position: absolute;
+    bottom: -37%;
+    right: 15%;
+  }
+  .block6{
+    position: absolute;
+    top: 70%;
+    right: 0;
+  }
+  .block7{
+    position: absolute;
+    top: 35%;
+    right: 0;
+  }
+  .block8{
+    position: absolute;
+    right: 0;
+  }
+}
+@media (max-width:1450px) {
+  .choice{
+    &_wrapper{
+      &_text{
+        &_block{
+          padding: 14px;
+        }
+      }
+    }
+  }
+  .block1{
+    position: absolute;
+    left: 0;
+    top: -5%;
+  }
+  .block2{
+    position: absolute;
+    top: 31%;
+    left: 0;
+  }
+  .block3{
+    position: absolute;
+    top: 67%;
+    left: 0;
+  }
+  .block4{
+    position: absolute;
+    bottom: -38%;
+    left: 15%;
+  }
+  .block5{
+    position: absolute;
+    bottom: -38%;
+    right: 15%;
+  }
+  .block6{
+    position: absolute;
+    top: 67%;
+    right: 0;
+  }
+  .block7{
+    position: absolute;
+    top: 31%;
+    right: 0;
+  }
+  .block8{
+    position: absolute;
+    right: 0;
+    top: -5%;
+  }
+}
+@media (max-width: 1290px) {
+  .choice{
+    &_wrapper{
+      &_text{
+        &_block{
+          padding: 14px;
+        }
+      }
+    }
+  }
+  .block1{
+    position: absolute;
+    left: 0;
+    top: -10%;
+  }
+  .block2{
+    position: absolute;
+    top: 29%;
+    left: 0;
+  }
+  .block3{
+    position: absolute;
+    top: 67%;
+    left: 0;
+  }
+  .block4{
+    position: absolute;
+    bottom: -44%;
+    left: 15%;
+  }
+  .block5{
+    position: absolute;
+    bottom: -44%;
+    right: 15%;
+  }
+  .block6{
+    position: absolute;
+    top: 67%;
+    right: 0;
+  }
+  .block7{
+    position: absolute;
+    top: 29%;
+    right: 0;
+  }
+  .block8{
+    position: absolute;
+    right: 0;
+    top: -10%;
+  }
+}
+@media (max-width: 992px) {
+  .choice{
+    &_wrapper{
+      &_text{
+        gap: 20px;
+        &_block{
+          padding: 14px;
+
+        }
+      }
+    }
+  }
+  .block1{
+    position: relative;
+    left: -10%;
+    width: 70%;
+    border-radius: 20px;
+  }
+  .block2{
+    position: relative;
+    right: -10%;
+    width: 70%;
+    border-radius: 20px;
+  }
+  .block3{
+    position: relative;
+    left: -10%;
+    width: 70%;
+    border-radius: 20px;
+  }
+  .block4{
+    position: relative;
+    right: -10%;
+    width: 70%;
+    border-radius: 20px;
+  }
+  .block5{
+    position: relative;
+    left: -10%;
+    width: 70%;
+    border-radius: 20px;
+  }
+  .block6{
+    position: relative;
+    right: -10%;
+    width: 70%;
+    border-radius: 20px;
+  }
+  .block7{
+    position: relative;
+    left: -10%;
+    width: 70%;
+    border-radius: 20px;
+  }
+  .block8{
+    position: relative;
+    right: -10%;
+    width: 70%;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}

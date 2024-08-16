@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+  .dopService{
+    margin-top: 50px;
+    &_wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      &_inf{
+        width: 100%;
+        display: flex;
+        &_img{
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}

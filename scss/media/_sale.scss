@@ -1,0 +1,40 @@
+
+@media (max-width: 992px) {
+  .text{
+    position: relative;
+    &_text{
+      width: 40%;
+      color: #fff;
+      justify-content: flex-end;
+      padding: 0 18px;
+      align-items: flex-end;
+      position: absolute;
+      bottom: -91px;
+      left: -6%;
+    }
+  }
+  .sale{
+    margin-top: 70px;
+    height: fit-content;
+    .container{
+      position: static;
+      flex-direction: column;
+      img{
+        width: 100%;
+        position: static;
+      }
+      .sale_wrapper{
+        padding-top: 30px;
+        gap: 15px;
+      }
+    }
+  }
+
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
