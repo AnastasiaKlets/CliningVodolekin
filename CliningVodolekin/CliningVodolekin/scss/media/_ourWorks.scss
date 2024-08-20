@@ -1,0 +1,34 @@
+@media (max-width: 992px) {
+  .faq_wrapper_tabs{
+    display: none;
+  }
+  .mySwiper{
+    display: inline;
+    img{
+      width: 100%;
+    }
+  }
+  .documents_faq{
+    display: inline;
+  }
+  .faq{
+    margin-top: 50px;
+  }
+
+  .faq{
+    .documents_indicators {
+      margin-top: 0;
+    }
+    .faq_wrapper_tabs_blocks_part_inf {
+      margin-bottom: 10px;
+    }
+  }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
+
+

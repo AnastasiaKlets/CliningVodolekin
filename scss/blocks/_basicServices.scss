@@ -29,16 +29,17 @@
           justify-content: space-between;
 
           &_btn{
-            background-image: url("../../img/basic_services/btn3.svg");
-            background-repeat: no-repeat;
-            height: 3.4vw;
+            background:  url("../../img/basic_services/btn3.svg") no-repeat white ;
+            background-size: cover;
+            height: 75px;
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 3.4vw;
+            width: 75px;
+            border: none;
           }
           &_btn:hover{
-            animation: swing 2.5s infinite;
+            cursor: pointer;
           }
           &_text{
             width: 85%;
@@ -65,73 +66,6 @@
     }
   }
 }
-
-@-webkit-keyframes swing {
-  0% {
-    background-image: url("../../img/basic_services/btn4.svg");
-    background-repeat: no-repeat;
-  }
-  2% {
-    background-image: url("../../img/basic_services/btn.svg");
-    background-repeat: no-repeat;
-  }
-  25% {
-    background-image: url("../../img/basic_services/btn.svg");
-    background-repeat: no-repeat;
-  }
-  25% {
-    background-image: url("../../img/basic_services/btn2.svg");
-    background-repeat: no-repeat;
-  }
-  50% {
-    background-image: url("../../img/basic_services/btn2.svg");
-    background-repeat: no-repeat;
-  }
-  50% {
-    background-image: url("../../img/basic_services/btn3.svg");
-    background-repeat: no-repeat;
-  }
-  80% {
-    background-image: url("../../img/basic_services/btn3.svg");
-    background-repeat: no-repeat;
-  }
-  100% {
-    background-image: url("../../img/basic_services/btn4.svg");
-    background-repeat: no-repeat;
-  }
-}
-
-@keyframes swing {
-  0% {
-    background-image: url("../../img/basic_services/btn4.svg");
-    background-repeat: no-repeat;
-  }
-  2% {
-    background-image: url("../../img/basic_services/btn.svg");
-    background-repeat: no-repeat;
-  }
-  25% {
-    background-image: url("../../img/basic_services/btn.svg");
-    background-repeat: no-repeat;
-  }
-  25% {
-    background-image: url("../../img/basic_services/btn2.svg");
-    background-repeat: no-repeat;
-  }
-  50% {
-    background-image: url("../../img/basic_services/btn2.svg");
-    background-repeat: no-repeat;
-  }
-  50% {
-    background-image: url("../../img/basic_services/btn3.svg");
-    background-repeat: no-repeat;
-  }
-  80% {
-    background-image: url("../../img/basic_services/btn3.svg");
-    background-repeat: no-repeat;
-  }
-  100% {
-    background-image: url("../../img/basic_services/btn4.svg");
-    background-repeat: no-repeat;
-  }
+.services_item_data{
+  display: none;
 }

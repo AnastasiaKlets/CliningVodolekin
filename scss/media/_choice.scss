@@ -17,15 +17,15 @@
         position: relative;
         width: 100%;
         img{
-          width: 70%;
+          width: 65%;
         }
         &_block{
           display: flex;
           flex-direction: column;
-          width: 30%;
+          width: 35%;
           border: 2px solid #4c4c4c;
           border-radius: 50px;
-          padding: 20px;
+          padding: 15px;
         }
       }
     }
@@ -47,12 +47,12 @@
   .block4{
     position: absolute;
     bottom: -37%;
-    left: 15%;
+    left: 10%;
   }
   .block5{
     position: absolute;
     bottom: -37%;
-    right: 15%;
+    right: 10%;
   }
   .block6{
     position: absolute;
@@ -97,12 +97,12 @@
   .block4{
     position: absolute;
     bottom: -38%;
-    left: 15%;
+    left: 10%;
   }
   .block5{
     position: absolute;
     bottom: -38%;
-    right: 15%;
+    right: 10%;
   }
   .block6{
     position: absolute;
@@ -127,6 +127,9 @@
         &_block{
           padding: 14px;
         }
+        &_block{
+          width: 40%;
+        }
       }
     }
   }
@@ -147,13 +150,13 @@
   }
   .block4{
     position: absolute;
-    bottom: -44%;
-    left: 15%;
+    bottom: -42%;
+    left: 5%;
   }
   .block5{
     position: absolute;
-    bottom: -44%;
-    right: 15%;
+    bottom: -42%;
+    right: 5%;
   }
   .block6{
     position: absolute;
