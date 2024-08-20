@@ -289,6 +289,7 @@
 }
 @media (max-width: 992px) {
   .formConnection{
+    margin-top: 50px;
     &_wrapper{
       display: flex;
       flex-direction: column;
@@ -332,5 +333,11 @@
 
 }
 @media (max-width: 480px) {
-
+  .text-field_floating-3 .text-field__input:focus~.text-field__label,
+  .text-field_floating-3 .text-field__input:not(:placeholder-shown)~.text-field__label {
+    transform: scale(0.85) translateY(-1rem) translateX(1.15rem);
+    color: #03a9f4;
+    font-size: 10px;
+  }
 }
+

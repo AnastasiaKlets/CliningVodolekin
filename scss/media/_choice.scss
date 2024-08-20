@@ -176,7 +176,9 @@
 }
 @media (max-width: 992px) {
   .choice{
+    margin-top: 50px;
     &_wrapper{
+      gap: 20px;
       &_text{
         gap: 20px;
         &_block{
@@ -189,48 +191,56 @@
   .block1{
     position: relative;
     left: -10%;
+    right: 0;
     width: 70%;
     border-radius: 20px;
   }
   .block2{
     position: relative;
     right: -10%;
+    left: 0;
     width: 70%;
     border-radius: 20px;
   }
   .block3{
     position: relative;
     left: -10%;
+    right: 0;
     width: 70%;
     border-radius: 20px;
   }
   .block4{
     position: relative;
     right: -10%;
+    left: 0;
     width: 70%;
     border-radius: 20px;
   }
   .block5{
     position: relative;
     left: -10%;
+    right: 0;
     width: 70%;
     border-radius: 20px;
   }
   .block6{
     position: relative;
     right: -10%;
+    left: 0;
     width: 70%;
     border-radius: 20px;
   }
   .block7{
     position: relative;
     left: -10%;
+    right: 0;
     width: 70%;
     border-radius: 20px;
   }
   .block8{
     position: relative;
     right: -10%;
+    left: 0;
     width: 70%;
     border-radius: 20px;
   }

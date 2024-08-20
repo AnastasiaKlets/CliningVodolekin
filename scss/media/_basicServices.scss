@@ -178,16 +178,20 @@
         &_inf{
           &_text{
             display: flex;
-            align-items: flex-end;
-            padding: 13px 20px 20px;
+            align-items: flex-start;
+            padding: 13px 10px 10px;
             justify-content: space-between;
-
+            flex-direction: column;
+            position: relative;
+            width: 94%;
             &_btn{
               background-image: url("../../img/basic_services/btn3.svg");
               background-repeat: no-repeat;
               background-size: cover;
               height: 44px;
               width: 44px;
+              position: relative;
+              right: -85%;
             }
             &_btn:hover{
               animation: swing step-end;

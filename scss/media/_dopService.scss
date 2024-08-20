@@ -67,6 +67,13 @@
         &_img{
           display: none;
         }
+        &_text{
+          &_line1{
+            &_text{
+              grid-template-columns: 67% 32%;
+            }
+          }
+        }
       }
     }
   }
